@@ -2,9 +2,9 @@
 title: "Test for posting"
 layout: single
 excerpt: "This is a test."
-author: "Sofiane"
+author: "Farid"
 sitemap: false
-permalink: /tests
+permalink: /testf
 ---
 
 # Title
