@@ -20,7 +20,7 @@ text from another section
 
 **Bold text** and this is *italic*. This is `important`.
 
-```Python
+```
 This is a code blob
 ```
 
