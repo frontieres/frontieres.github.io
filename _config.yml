@@ -9,9 +9,9 @@
 locale                   : "fr-FR"
 title                    : "Frontières"
 title_separator          : "-"
-name                     : "Dream team"
-description              : "Blog technique, tutoriels et projets de développements personnels et opiniatre"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "A team"
+description              : "Blog technique, tutoriels et projets de développements personnels (et opiniâtres)"
+url                      : "http://frontieres.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -60,12 +60,13 @@ google_ad_slot           :
 
 
 # Site Author
+# Sofiane
 author:
-  name             : "Your Name"
-  avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Sofiane"
+  avatar           : "sofiane.jpg"
+  bio              : "Computer science, networking and telecommunication Engineer and PhD. Tech enthusiast. Book worm. Endlessly optimist."
+  location         : 
+  email            : "contact@somemail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -73,12 +74,12 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "sofianinho"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "Sofiane Imadali"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -204,3 +205,16 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+defaults:
+# _posts
+ - scope:
+    path: ""
+    type: posts
+  values:
+   layout: single
+   author_profile: true
+   read_time: true
+   comments: true
+   share: true
+   related: true
