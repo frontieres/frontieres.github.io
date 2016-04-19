@@ -2,7 +2,7 @@
 title: "Test for posting Sofiane"
 layout: single
 excerpt: "This is a test."
-author: Sofiane
+author: "Sofiane"
 sitemap: false
 permalink: /test
 ---
