@@ -4,7 +4,7 @@ layout: single
 excerpt: "This is a test."
 author: Sofiane
 sitemap: false
-permalink: /test-1.html
+permalink: /test
 ---
 
 # Title
