@@ -1,6 +1,5 @@
 # Site Author
-# Sofiane
-author:
+Sofiane:
   name             : "Sofiane"
   avatar           : "sofiane.jpg"
   bio              : "Computer science, networking and telecommunication Engineer and PhD. Tech enthusiast. Book worm. Endlessly optimist."
@@ -30,8 +29,7 @@ author:
   xing             :
   youtube          :
 
-# Farid
-author:
+Farid:
   name             : "Farid"
   avatar           : "farid.jpg"
   bio              : "Description"
@@ -61,8 +59,7 @@ author:
   xing             :
   youtube          :
 
-# Zakwoo
-author:
+Zakwoo:
   name             : "Zakaria"
   avatar           : "zakwoo.jpg"
   bio              : "Description"
@@ -92,8 +89,7 @@ author:
   xing             :
   youtube          :
 
-# Walid
-author:
+Walid:
   name             : "Walid"
   avatar           : "bio-photo.jpg"
   bio              : "Description"
