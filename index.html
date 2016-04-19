@@ -11,4 +11,8 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
+{% for post in paginator.pages %}
+  {% include archive-single.html %}
+{% endfor %}
+
 {% include paginator.html %}
