@@ -30,4 +30,5 @@ This is an embedded video:
 
 This a photo:
 
-![chien](http://www.votipets.com/images/chien.jpg "Labradocteur") {: .center-image}
+{: .center-image}
+![chien](http://www.votipets.com/images/chien.jpg "Labradocteur")
