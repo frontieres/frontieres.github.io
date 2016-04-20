@@ -1,5 +1,7 @@
 ---
 title: "Test for posting"
+category: "tests"
+tags: "zakwoo","test"
 layout: single
 excerpt: "This is a test."
 author: "Zakwoo"
