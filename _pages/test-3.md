@@ -30,6 +30,6 @@ This is an embedded video:
 
 This a photo:
 
-<center><img src="http://www.votipets.com/images/chien.jpg" "Labradocteur"></center>
+<center><img src="http://www.votipets.com/images/chien.jpg"></center>
 <center>Golden retriever</center>
 
