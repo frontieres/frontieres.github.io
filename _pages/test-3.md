@@ -7,7 +7,7 @@ layout: single
 excerpt: "This is a test."
 author: "Zakwoo"
 sitemap: false
-permalink: /testz
+permalink: /test/
 fullwidth: true
 excerpt: "Petit résumé de la page de test."
 ads: false
