@@ -15,7 +15,7 @@ fullwidth: true
 ---
 
 {{ page.excerpt | markdownify }}
-{% include toc.html %}
+{% include toc %}
 
 # Title
 
