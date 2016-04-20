@@ -31,4 +31,4 @@ This is an embedded video:
 This a photo:
 
 
-![chien](http://www.votipets.com/images/chien.jpg "Labradocteur") {: height="36px" width="36px"}
+->![chien](http://www.votipets.com/images/chien.jpg "Labradocteur")<-
