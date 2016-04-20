@@ -29,5 +29,5 @@ This is an embedded video:
 <iframe width="420" height="315" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen> </iframe>
 
 This a photo:
-{: .center}
-![chien](http://www.votipets.com/images/chien.jpg "Labradocteur")
+
+![chien](http://www.votipets.com/images/chien.jpg "Labradocteur") {: .center}
