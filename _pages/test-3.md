@@ -1,13 +1,20 @@
 ---
+layout: archive
+date: 2016-04-10T12:05:57-05:00
 title: "Test for posting"
-category: "tests"
-tags: "zakwoo","test"
+tags: [Zakwoo, test, haja]
 layout: single
 excerpt: "This is a test."
 author: "Zakwoo"
 sitemap: false
 permalink: /testz
+fullwidth: true
+excerpt: "Petit résumé de la page de test."
+ads: false
+fullwidth: true
 ---
+
+{{ page.excerpt | markdownify }}
 
 # Title
 
