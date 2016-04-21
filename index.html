@@ -13,9 +13,6 @@ author_profile: true
 
 {% comment %}
 Test de categories
-{% endcomment %}
-
-
 
 {% for category in site.categories %}
   <li><a name="{{ category | first }}">{{ category | first }}</a>
@@ -34,6 +31,7 @@ Test de categories
     </ul>
   </li>
 {% endfor %}
+{% endcomment %}
 
 
 <h1>Classement des entrées par tags: </h1>
