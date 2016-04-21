@@ -188,6 +188,16 @@ whitelist:
 # tags:
 #  type: liquid
 #  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled: all
+#   layout: 'archive'
+#   permalinks:
+#     year: '/:year/'
+#     month: '/:year/:month/'
+#     day: '/:year/:month/:day/'
+#     tag: '/tag/:name/'
+#     category: '/category/:name/'
 
 categories:
   type: jekyll-archives
@@ -206,16 +216,6 @@ jekyll-archives:
     category: /categories/:name/
     tag: /tags/:name/
 
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled: all
-#   layout: 'archive'
-#   permalinks:
-#     year: '/:year/'
-#     month: '/:year/:month/'
-#     day: '/:year/:month/:day/'
-#     tag: '/tag/:name/'
-#     category: '/category/:name/'
 
 
 # HTML Compression
