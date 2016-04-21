@@ -17,7 +17,6 @@ Test de categories
 
 
 {% for category in site.categories %}
- {% case site.categories.type %}
      <div class="catbloc" id="{{ category | first | remove:' ' }}">
          <h3>Archive of posts in '{{ category | first }}'</h2>
           <ul>
@@ -35,7 +34,6 @@ Test de categories
             {% endfor %}
          </ul>
      </div>
-{% endcase %}
 {% endfor %}
 
 
