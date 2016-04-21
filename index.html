@@ -5,7 +5,7 @@ author_profile: true
 
 {% include base_path %}
 
-<h3 class="archive__subtitle">Entrées récentes dans le blog</h3>
+<h2 class="archive__subtitle">Entrées récentes dans le blog</h2>
 
 {% for post in paginator.posts %}
   {% include archive-single.html %}
@@ -34,7 +34,7 @@ Test de categories
 {% endcomment %}
 
 
-<h1>Classement des entrées par tags: </h1>
+<h2 class="archive__subtitle">Entrées par tag: </h2>
 {% include group-by-array collection=site.posts field="tags" %}
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
