@@ -15,20 +15,11 @@ author_profile: true
 Test de categories
 {% endcomment %}
 
-<h1>Archive of posts with {{ site.type }} '{{ site.title }}'</h1>
-<ul class="posts">
-  {% for post in site.posts %}
-    <li>
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
 
 {% for category in site.categories %}
+ {% case site.categories.type %}
      <div class="catbloc" id="{{ category | first | remove:' ' }}">
-         <h2>Archive of posts in '{{ category | first }}'</h2>
+         <h3>Archive of posts in '{{ category | first }}'</h2>
           <ul>
             {% for posts in category %}
               {% for post in posts %}
@@ -44,6 +35,7 @@ Test de categories
             {% endfor %}
          </ul>
      </div>
+{% endcase %}
 {% endfor %}
 
 
