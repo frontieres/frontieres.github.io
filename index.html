@@ -28,7 +28,7 @@ Test de categories
 
 {% for category in site.categories %}
      <div class="catbloc" id="{{ category | first | remove:' ' }}">
-         <h2>{{ category | first }}</h2>
+         <h2>Archive of posts in '{{ category | first }}'</h2>
           <ul>
             {% for posts in category %}
               {% for post in posts %}
