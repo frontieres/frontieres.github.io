@@ -21,10 +21,10 @@ comments:
   provider               : "disqus" # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
    short_name             : "frontieres" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  facebook:                 # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : 5 # 5 (default)
-    colorscheme          : "light" # "light" (default), "dark"
+  #facebook:                 # https://developers.facebook.com/docs/plugins/comments
+  #  appid                :
+  #  num_posts            : 5 # 5 (default)
+  #  colorscheme          : "light" # "light" (default), "dark"
 
 # SEO Related
 google_site_verification :
