@@ -21,9 +21,7 @@ comments:
   provider               : "disqus" # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
    shortname             : "frontieres" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  provider                : "facebook"
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
+  facebook:                 # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : 5 # 5 (default)
     colorscheme          : "light" # "light" (default), "dark"
