@@ -27,7 +27,7 @@ words_per_minute         : 150
   #  colorscheme          : "light" # "light" (default), "dark"
 
 comments :
-  provider : [disqus, facebook, livefyre, intensedebate]
+  provider : livefyre
   disqus :
     short_name : frontieres
   livefyre :
