@@ -1,13 +1,13 @@
 # main links links
 main:
-  - title: "Sous catégorie 1"
-    url: http://frontieres.github.io
+  - title: "Blog"
+    url: http://frontieres.github.io/categories/#blog
 
-  - title: "Sous catégorie 2"
-    url: http://frontieres.github.io
+  - title: "Tutoriels"
+    url: http://frontieres.github.io/categories/#tutoriels
 
-  - title: "Sous catégorie 3"
-    url: http://frontieres.github.io
+  - title: "Projets DIY"
+    url: http://frontieres.github.io/categories/#diy
 
-  - title: "Example de pages"
-    url: http://frontieres.github.io/test
+  - title: "About"
+    url: http://frontieres.github.io/about
