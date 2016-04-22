@@ -91,37 +91,6 @@ author:
   xing             :
   youtube          :
 
-# Farid
-author:
-  name             : "Farid"
-  avatar           : "farid.jpg"
-  bio              : "Description."
-  location         :
-  email            : "contact@somemail.com"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : 
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : 
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-
 # Reading Files
 include:
   - .htaccess
