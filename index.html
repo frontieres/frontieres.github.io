@@ -34,7 +34,7 @@ Test de categories
 {% endcomment %}
 
 
-<h1 class="archive__subtitle">Entrées par tag (Tags): </h1>
+<h1 class="archive__subtitle">Entrées par tag : </h1>
 {% include group-by-array collection=site.posts field="tags" %}
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
